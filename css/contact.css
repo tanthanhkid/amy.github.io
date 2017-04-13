@@ -70,7 +70,7 @@ body{
 }
 #name,#mail,#mess{
 	box-shadow:none;
-	border-color:#666;
+	border-color:#000;
 	margin-bottom:0px;
 }
 #namebox,#mailbox{
@@ -80,18 +80,22 @@ body{
 	height:150px;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #000;
+    color:    #666;
+	font-family: 'Droid Serif', serif;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #000;
+   color:    #666;
    opacity:  1;
+	font-family: 'Droid Serif', serif;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #000;
+   color:    #666;
    opacity:  1;
+   font-family: 'Droid Serif', serif;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #000;
+   color:    #666;
+   font-family: 'Droid Serif', serif;
 }
 #sendbut,#resetbut{
 	background-color:#000;
@@ -103,11 +107,101 @@ body{
 	margin-bottom:50px;
 	font-size:11pt;
 }
+#sendbut:hover,#resetbut:hover{
+	background-color:#996633;
+}
 .textfieldRequiredState .textfieldRequiredMsg, .textfieldInvalidFormatState .textfieldInvalidFormatMsg, .textfieldMinValueState .textfieldMinValueMsg, .textfieldMaxValueState .textfieldMaxValueMsg, .textfieldMinCharsState .textfieldMinCharsMsg, .textfieldMaxCharsState .textfieldMaxCharsMsg ,.textareaRequiredState .textareaRequiredMsg, .textareaMinCharsState .textareaMinCharsMsg, .textareaMaxCharsState .textareaMaxCharsMsg {
 	border:none !important;
 	font-size:13px !important;
 	font-family: 'Droid Serif', serif;
+	color:#996633 !important;
 }
 .textareaFocusState textarea, textarea.textareaFocusState {
     background-color:#FAFAFA !important;
+}
+#footer{
+	background-color:#000;
+	height:200px;
+	margin-top:20px;
+}
+#f1,#f2,#f3{
+	margin-top:40px;
+}
+#flogo{
+	margin-left:20px;
+	margin-bottom:20px;
+}
+#cpr{
+	font-family:LatoH;
+	color:#fff;
+	font-size:8pt;
+}
+#cpr img{
+	margin-right:5px;
+}
+#f2 h3,#f3 h3{
+	font-family:LatoH;
+	color:#fff;
+	font-size:12pt;
+}
+
+#f2 hr,#f3 hr{
+	width:50px;
+	margin:0px;
+	border:solid 1px #fff;
+	margin-bottom:10px;
+}
+#sprytextfield11{
+	width:250px;
+	float:left;
+	margin-top:5px;
+}
+#signupbut{
+	background-color:#996633;
+	width:100px;
+	height:37px;
+	color:#000;
+	border:none;
+	font-family:LatoH;
+	font-size:11pt;
+	margin-top:5px;
+}
+#signupbut:hover{
+	color:#fff;
+}
+#fcontact{
+	font-family: 'Droid Serif', serif;
+	color:#fff;
+	font-size:11pt;
+	line-height:20pt;
+}
+#fcontact img{
+	margin-right:10px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #666;
+	font-family: 'Droid Serif', serif;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #666;
+   opacity:  1;
+	font-family: 'Droid Serif', serif;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #666;
+   opacity:  1;
+   font-family: 'Droid Serif', serif;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #666;
+   font-family: 'Droid Serif', serif;
+}
+.textfieldRequiredState .textfieldRequiredMsg, .textfieldInvalidFormatState .textfieldInvalidFormatMsg, .textfieldMinValueState .textfieldMinValueMsg, .textfieldMaxValueState .textfieldMaxValueMsg, .textfieldMinCharsState .textfieldMinCharsMsg, .textfieldMaxCharsState .textfieldMaxCharsMsg {
+	font-family: 'Droid Serif', serif;
+	font-size:11pt;
+	border:none !important;
+	color:#996633 !important;
+}
+#signup{
+	margin-bottom:5px;
 }

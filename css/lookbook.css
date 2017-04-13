@@ -42,8 +42,8 @@ body{
 	-webkit-transition:all ease .5s;
 }
 #banner{
-	background-image:url(../imgs/1-home.jpg);
-	height:600px;
+	background-image:url(../imgs/5-lookbook.jpg);
+	height:300px;
 	width:100%;
 	background-size:cover;
 }
@@ -53,8 +53,8 @@ body{
 	font-size:33pt;
 	text-align:center;
 	border-bottom:solid 1px #000;
-	width:230px;
-	margin-left:370px;
+	width:260px;
+	margin-left:355px;
 	margin-bottom:25px;
 }
 #welcome p{
@@ -69,12 +69,15 @@ body{
 	margin-bottom:40px;
 }
 .wel img{
-	margin-bottom:60px;
+	margin-bottom:50px;
 }
 .we1{
 	font-family:LatoH;
 	margin-bottom:0px;
 	margin-top:30px;
+}
+.we1:hover{
+	color:#996633;
 }
 .we2{
 	color:#666;
@@ -84,6 +87,9 @@ body{
 .left{
 	float:left;
 	margin-right:10px;
+}
+.welt p{
+	font-family: 'Droid Serif', serif;
 }
 #footer{
 	background-color:#000;
@@ -170,4 +176,44 @@ body{
 }
 #signup{
 	margin-bottom:5px;
+}
+.lbpic{
+	margin-bottom:50px;
+}
+.pichover{
+	position:absolute;
+	z-index:100;
+	background-color:rgba(0,0,0,.7);
+	width:468px;
+	height:500px;
+}
+.pichover h3{
+	font-family: 'Playfair Display', serif;
+	color:#fff;
+	margin-top:200px;
+	margin-left:55px;
+	font-size:44pt;
+	line-height:44pt;
+}
+.pichover hr{
+	width:100px;
+	border:solid 2px #fff;
+	margin-left:55px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.pichover h4{
+	font-family: 'Droid Serif', serif;
+	color:#fff;
+	font-size:11pt;
+	margin-left:55px;
+
+}
+.lbpic a .pichover{
+	opacity:1;
+	transition:all ease 1s;
+}
+.lbpic a:hover .pichover{
+	opacity:0;
+	transition:all ease 1s;
 }

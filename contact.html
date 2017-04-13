@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amy | Women's Clothing</title>
+    <title>Amy | CONTACT US</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Playfair+Display" rel="stylesheet">
     <link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+    <link href="SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css">
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
+  <script src="js/foundation.min.js"></script>
     <script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+    <script src="SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
     <script>
-$(document).foundation();
-
+      $(document).foundation();
     </script>
   </head>
   
@@ -40,19 +41,52 @@ $(document).foundation();
         	<!--search-->
         </div>
     </div>
-  </div><!--navi-->
+  </div>
   
   <div id="banner">
+    
   </div>
   
   <div class="row">
   	<div class="large-12 column" id="welcome">
-    	<h2>WELCOME</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    	<h2>CONTACT US</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div><!--text-->
-
-	<div id="footer">
+  
+<form method="post">  
+  <div class="row">
+  	<div class="large-8 push-2 column" id="namebox">
+   	  <span id="sprytextfield1">
+    	<label for="name"></label>
+    	<input type="text" name="name" id="name" placeholder="YOUR NAME">
+   	<span class="textfieldRequiredMsg">Please enter your name.</span></span> </div>
+  </div><!--name-->
+  <div class="row">
+  	<div class="large-8 push-2 column" id="mailbox">
+   	  <span id="sprytextfield2">
+      <label for="mail"></label>
+      <input type="text" name="mail" id="mail" placeholder="YOUR E-MAIL">
+    <span class="textfieldRequiredMsg">Please enter your e-mail.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span> </div>
+  </div><!--mail-->
+  <div class="row">
+  	<div class="large-8 push-2 column" id="messbox">
+   	  <span id="sprytextarea1">
+      <label for="mess"></label>
+      <textarea name="mess" id="mess" cols="45" rows="5" placeholder="DROP US A LINE..."></textarea>
+    <span class="textareaRequiredMsg">Please enter your message.</span><span class="textareaMinCharsMsg">Please give us more.</span></span> </div>
+  </div><!--mess-->
+  <div class="row">
+  	<div class="large-2 push-4 column">
+    	<input name="" type="submit" value="SEND" id="sendbut">
+    </div>
+    <div class="large-2 pull-4 column">
+    	<input name="" type="reset" value="RESET" id="resetbut">
+    </div>
+  </div><!--button-->
+ </form>
+ 
+ <div id="footer">
   	<div class="row">
     	<div class="large-3 column" id="f1">
         	<img src="imgs/footerlogo.png" id="flogo">
@@ -64,7 +98,7 @@ $(document).foundation();
         	<h3>SIGN UP FOR NEWSLETTER</h3>
             <hr>
             <form method="post" id="subscribe">
-           	  <span id="sprytextfield1">
+           	  <span id="sprytextfield11">
             	<label for="signup"></label>
                 <input type="text" name="signup" id="signup" placeholder="YOUR E-MAIL">
               <span class="textfieldInvalidFormatMsg">Invalid format.</span></span>
@@ -82,11 +116,16 @@ $(document).foundation();
             </div>
         </div>
     </div>
-  </div>
+  </div><!--footer-->
 <script type="text/javascript">
-var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "email");
-  </script>  
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield11", "email");
+  </script>
   
+<script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {validateOn:["blur"]});
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "email", {validateOn:["blur"]});
+var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1", {validateOn:["blur"], minChars:50});
+</script>
 </body>
   
 </html>
