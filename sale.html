@@ -6,6 +6,7 @@
     <title>Amy | SALE</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/sale.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Playfair+Display" rel="stylesheet">
     <link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
@@ -39,8 +40,9 @@ $(document).foundation();
                 <li><a href="contact.html">CONTACT US</a></li>
             </ul>
         </div>
-        <div class="large-2 column">
-        	<!--search-->
+        <div class="large-2 column" id="navibut">
+        	<a href="#" id="searchbut"><img src="imgs/search.png"></a>
+            <a href="#" id="bagbut"><img src="imgs/bag.png"></a>
         </div>
     </div>
   </div>
@@ -171,10 +173,17 @@ $(document).foundation();
            	  <span id="sprytextfield1">
             	<label for="signup"></label>
                 <input type="text" name="signup" id="signup" placeholder="YOUR E-MAIL">
-              <span class="textfieldInvalidFormatMsg">Invalid format.</span></span>
+              <span class="textfieldInvalidFormatMsg"></span></span>
             	<input name="" type="submit" value="SUBSCRIBE" id="signupbut">
             </form>
-            
+            <div id="social">
+            <ul>
+            <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-tumblr-square" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+            </ul>
+            </div>
         </div>
         <div class="large-4 column" id="f3">
         	<h3>CONTACT</h3>

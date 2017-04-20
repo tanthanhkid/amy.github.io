@@ -120,7 +120,7 @@ body{
 #f2 hr,#f3 hr{
 	width:50px;
 	margin:0px;
-	border:solid 1px #fff;
+	border:solid 1px #996633;
 	margin-bottom:10px;
 }
 #sprytextfield1{
@@ -226,4 +226,34 @@ body{
 }
 .cloth a:hover{
 	color:#996633;
+}
+#navibut{
+	margin-top:25px;
+	text-align:right;
+}
+#navibut a{
+	margin-left:20px;
+}
+#social ul{
+	list-style-type:none;
+	text-align:left;
+	margin-left:0px;
+	margin-top:-10px;
+}
+#social ul li{
+	float:left;
+	margin-right:10px;
+}
+#social ul li a{
+	color:#fff;
+	font-size:15pt;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+}
+#social ul li a:hover{
+	color:#996633;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
 }
