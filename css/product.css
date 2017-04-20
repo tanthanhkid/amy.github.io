@@ -94,7 +94,7 @@ body{
 #footer{
 	background-color:#000;
 	height:200px;
-	margin-top:20px;
+	margin-top:50px;
 }
 #f1,#f2,#f3{
 	margin-top:40px;
@@ -177,47 +177,108 @@ body{
 #signup{
 	margin-bottom:5px;
 }
-.lbpic{
-	margin-bottom:50px;
+#navi2{
+	background-color:#000;
+	height:44px;
+	margin-bottom:40px;
 }
-.pichover{
-	position:absolute;
-	z-index:100;
-	background-color:rgba(0,0,0,.7);
-	width:468px;
-	height:500px;
+#navii2 ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	margin-top:8px;
+	margin-left:220px;
 }
-.pichover h3{
-	font-family: 'Playfair Display', serif;
+#navii2 ul li{
+	float:left;
+}
+#navii2 ul li a{
+	font-family:LatoH;
+	font-size:10pt;
 	color:#fff;
-	margin-top:200px;
-	margin-left:55px;
-	font-size:44pt;
-	line-height:44pt;
+	padding:15px;	
 }
-.pichover hr{
-	width:100px;
-	border:solid 2px #fff;
-	margin-left:55px;
-	margin-top:15px;
-	margin-bottom:10px;
-}
-.pichover h4{
-	font-family: 'Droid Serif', serif;
+#navii2 ul li a:hover{
 	color:#fff;
-	font-size:11pt;
-	margin-left:55px;
-
+	background-color:#996633;
+	padding:15px;	
 }
-.lbpic a .pichover{
-	opacity:1;
-	transition:all ease 1s;
-	-moz-transition:all ease 1s;
-	-webkit-transition:all ease 1s;
+#Pprice{
+	font-family:'Droid Serif', serif;
+	color:#996633;
+	font-size:40pt;
+	margin-top:60px;	
 }
-.lbpic a:hover .pichover{
-	opacity:0;
-	transition:all ease 1s;
-	-moz-transition:all ease 1s;
-	-webkit-transition:all ease 1s;
+#Pname{
+	font-family:'Playfair Display', serif;
+	color:#000;
+	font-size:55pt;
+	line-height:66pt;
+	margin-top:10px;
+}
+#Pinfo{
+	font-family:'Droid Serif', serif;
+	color:#000;
+	font-size:13pt;
+	margin-top:33px;
+}
+.Pbutton{
+	width:90%;
+	height:50px;
+}
+.mar1,.mar2{
+	margin:0px;
+	padding:0px;
+	margin-top:10px;
+}
+#quantity{
+	margin-left:15px;
+}
+#addtocart{
+}
+#addtocart a{
+	display:block;
+	height:50px;
+	width:100%;
+	background-color:#000;
+	color:#fff;
+	font-family:LatoH;
+	text-align:center;
+	padding:15px;
+}
+#addtocart a:hover{
+	background-color:#996633;
+}
+select{
+	font-family:LatoH;
+	color:#000;
+	font-size:15pt;
+	border:solid 1px #000;
+}
+select:hover{
+	border:solid 1px #000;
+}
+.column + .column:last-child, .columns + .column:last-child, .column + .columns:last-child, .columns + .columns:last-child {
+	float:left;
+}
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translate(0%,-50%);
+}
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translate(0%,-50%);
+}
+.w3-button {
+    padding: 8px 16px;
+    color: inherit;
+    background-color: inherit;
+}
+button:hover,button:focus {
+	background-color:rgba(3,3,3,0)!important;
+	color:#000!important;
 }

@@ -41,12 +41,6 @@ body{
 	-moz-transition:all ease .5s;
 	-webkit-transition:all ease .5s;
 }
-#banner{
-	background-image:url(../imgs/1-home.jpg);
-	height:600px;
-	width:100%;
-	background-size:cover;
-}
 #welcome h2{
 	font-family: 'Playfair Display', serif;
 	margin-top:40px;
@@ -170,4 +164,55 @@ body{
 }
 #signup{
 	margin-bottom:5px;
+}
+#shopbutton1{
+	width:110px;
+	height:30px;
+	background-color:#fff;
+	font-family:LatoH;
+	color:#000;
+	text-align:center;
+	padding:5px;
+	position:absolute;
+	z-index:100;
+	margin-left:400px;
+	margin-top:200px;
+}
+#shopbutton1:hover{
+	background-color:#000;
+	color:#fff;
+}
+#shopbutton2{
+	width:110px;
+	height:30px;
+	background-color:#FFF;
+	font-family:LatoH;
+	color:#000;
+	text-align:center;
+	padding:5px;
+	position:absolute;
+	z-index:100;
+	margin-left:190px;
+	margin-top:390px;
+}
+.banmar{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+#shopbutton3{
+	width:150px;
+	height:30px;
+	background-color:#FFF;
+	font-family:LatoH;
+	color:#000;
+	text-align:center;
+	padding:5px;
+	position:absolute;
+	z-index:100;
+	margin-left:170px;
+	margin-top:235px;
+}
+#shopbutton2:hover,#shopbutton3:hover{
+	background-color:#000;
+	color:#fff;
 }

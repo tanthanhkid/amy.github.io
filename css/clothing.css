@@ -94,7 +94,7 @@ body{
 #footer{
 	background-color:#000;
 	height:200px;
-	margin-top:20px;
+	margin-top:50px;
 }
 #f1,#f2,#f3{
 	margin-top:40px;
@@ -177,47 +177,53 @@ body{
 #signup{
 	margin-bottom:5px;
 }
-.lbpic{
-	margin-bottom:50px;
+#navi2{
+	background-color:#000;
+	height:44px;
+	margin-bottom:40px;
 }
-.pichover{
-	position:absolute;
-	z-index:100;
-	background-color:rgba(0,0,0,.7);
-	width:468px;
-	height:500px;
+#navii2 ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	margin-top:8px;
+	margin-left:220px;
 }
-.pichover h3{
-	font-family: 'Playfair Display', serif;
+#navii2 ul li{
+	float:left;
+}
+#navii2 ul li a{
+	font-family:LatoH;
+	font-size:10pt;
 	color:#fff;
-	margin-top:200px;
-	margin-left:55px;
-	font-size:44pt;
-	line-height:44pt;
+	padding:15px;	
 }
-.pichover hr{
-	width:100px;
-	border:solid 2px #fff;
-	margin-left:55px;
-	margin-top:15px;
-	margin-bottom:10px;
+#navii2 ul li a:hover{
+	color:#fff;
+	background-color:#996633;
+	padding:15px;	
 }
-.pichover h4{
+.cloth{
+	margin-bottom:30px;
 	font-family: 'Droid Serif', serif;
-	color:#fff;
-	font-size:11pt;
-	margin-left:55px;
-
 }
-.lbpic a .pichover{
-	opacity:1;
-	transition:all ease 1s;
-	-moz-transition:all ease 1s;
-	-webkit-transition:all ease 1s;
+.cloth img{
+	margin-bottom:20px;
 }
-.lbpic a:hover .pichover{
-	opacity:0;
-	transition:all ease 1s;
-	-moz-transition:all ease 1s;
-	-webkit-transition:all ease 1s;
+.clothname{
+	float:left;
+}
+.clothprice{
+	font-weight:bold;
+	text-align:right;
+	font-size:15pt;
+}
+.clothcat{
+	color:#666;
+}
+.cloth a{
+	color:#000;
+}
+.cloth a:hover{
+	color:#996633;
 }

@@ -28,10 +28,10 @@ $(document).foundation();
         </div>
         <div class="large-8 column" id="navii">
         	<ul>
-            	<li><a href="about.html">ABOUT</a></li>
-                <li><a href="#">CLOTHING</a></li>
-                <li><a href="lookbook.html">LOOKBOOK</a></li>
-                <li><a href="#">SALE</a></li>
+            	<li><a href="about.html">ABOUT US</a></li>
+                <li><a href="clothing.html">CLOTHING</a></li>
+                <li><a href="sale.html">SALE</a></li>
+		<li><a href="lookbook.html">LOOKBOOK</a></li>
                 <li><a href="blog.html">BLOG</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
             </ul>
@@ -42,7 +42,10 @@ $(document).foundation();
     </div>
   </div><!--navi-->
   
-  <div id="banner">
+  <div class="w3-content w3-section">
+      <img class="mySlides" src="imgs/1-homee6.jpg" style="width:100%">
+      <img class="mySlides" src="imgs/1-home6.jpg" style="width:100%">
+      <img class="mySlides" src="imgs/1-homeee6.jpg" style="width:100%">
   </div>
   
   <div class="row">
@@ -51,6 +54,27 @@ $(document).foundation();
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div><!--text-->
+
+	<div class="row">
+    	<div class="large-12 column">
+        	<a href="#">
+            <div id="shopbutton1">SHOP NOW</div>
+    		<img src="imgs/homeban1.jpg">
+            </a>
+        </div>
+        <div class="large-6 column banmar">
+        	<a href="#">
+            <div id="shopbutton2">SHOP TOPS</div>
+    		<img src="imgs/homeban2.jpg">
+            </a>
+        </div>
+        <div class="large-6 column banmar">
+        	<a href="#">
+            <div id="shopbutton3">SHOP BOTTOMS</div>
+    		<img src="imgs/homeban3.jpg">
+            </a>
+        </div>
+    </div>
 
 	<div id="footer">
   	<div class="row">
@@ -86,6 +110,22 @@ $(document).foundation();
 <script type="text/javascript">
 var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "email");
   </script>  
+  <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
   
 </body>
   
