@@ -1,17 +1,50 @@
  /* global */
- .wordwrap { 
-    white-space: pre-wrap;      /* CSS3 */   
-    white-space: -moz-pre-wrap; /* Firefox */    
-    white-space: -pre-wrap;     /* Opera <7 */   
-    white-space: -o-pre-wrap;   /* Opera 7 */    
-    word-wrap: break-word;      /* IE */
- }
- 
- /* app.js */
 
+ .wordwrap {
+     white-space: pre-wrap;
+     /* CSS3 */
+     white-space: -moz-pre-wrap;
+     /* Firefox */
+     white-space: -pre-wrap;
+     /* Opera <7 */
+     white-space: -o-pre-wrap;
+     /* Opera 7 */
+     word-wrap: break-word;
+     /* IE */
+ }
+ /* app.js */
+ #site-wrapper{ 
+    padding-right: 0;
+    padding-left: 0;
+ }
+
+ #site-wrapper>.col-md-8{
+     border: solid 1px #e2dddd;
+     border-top: none;
+     border-bottom: none;
+ }
  .sideBar {
      height: 500px;
-     background: rgb(136, 133, 133);
+     /* background: rgb(136, 133, 133); */
+ }
+ #hashtagCol{
+    padding-right: 0;
+    padding-left: 0;
+ }
+ #hashtagCol ul {
+     text-align: center;
+     margin: 0;
+     padding: 0;
+ }
+
+ #hashtagCol ul li {
+     list-style-type: none;
+     display: inline;
+      
+ }
+
+ #hashtagCol ul li a{
+     font-size: 30px;
  }
 
  .gridFluid {
@@ -40,10 +73,10 @@
  }
 
  .appBar {
-     margin-bottom: 20px
+     margin-bottom: 0px
  }
 
- .midCol {}
+ 
  /* post-detail.js */
 
  .uploadButton {
@@ -62,7 +95,6 @@
      left: 0;
      width: 100%;
      opacity: 0;
-    
  }
 
  .upload {
@@ -94,7 +126,6 @@
      background-color: #f4f5f8;
      padding: 0;
  }
- 
 
  .submitBtn {
      float: right;
@@ -105,32 +136,36 @@
      display: inline-block;
      width: 100%
  }
-
  /* register-form.js */
+
  .regisAction {
-    float: right;
-    display: inline
- }
- .loginBtn{
-    float: left;
-    display: inline
+     float: right;
+     display: inline
  }
 
+ .loginBtn {
+     float: left;
+     display: inline
+ }
  /* login-form.js */
+
  .loginAction {
-    float: right;
-    display: inline
- }
- .regisBtn{
-    float: left;
-    display: inline
+     float: right;
+     display: inline
  }
 
- /* post-list.js */
- #postType{
-    width: 100%;
+ .regisBtn {
+     float: left;
+     display: inline
  }
- #postType>li{
-    width: 33.333%;
-    text-align: center;
+ /* post-list.js */
+
+ #postType {
+     width: 100%;
+     margin-top: 20px;
+ }
+
+ #postType>li {
+     width: 33.333%;
+     text-align: center;
  }
