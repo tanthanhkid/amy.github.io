@@ -201,4 +201,7 @@
         column-gap: 20px; 
          
     }
+    #site-wrapper>.col-md-8{
+        border: none;
+    }
 }
