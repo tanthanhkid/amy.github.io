@@ -173,6 +173,11 @@
      text-align: center;
  }
 
+ .loading-icon{
+   margin-right: auto;
+   margin-left: auto;
+ }
+
  .container-masonry {
     -moz-column-count: 2;
     -webkit-column-count: 2;
