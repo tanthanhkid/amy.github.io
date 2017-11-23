@@ -190,7 +190,7 @@
     margin: 10px 0 10px 0;
  }
 
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 574px) {
     .container-masonry {
         -moz-column-count: 1;
         -webkit-column-count: 1;
