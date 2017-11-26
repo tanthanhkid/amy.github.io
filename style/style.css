@@ -66,6 +66,7 @@
 
  .title {
      cursor: pointer;
+    
  }
 
  .popOverItem {
@@ -174,11 +175,14 @@
  }
 
  .loading-icon{
+     margin-top: 30px;
+     clear: both;
    margin-right: auto;
    margin-left: auto;
  }
 
  .container-masonry {
+     
     -moz-column-count: 2;
     -webkit-column-count: 2;
     column-count: 2;
@@ -189,12 +193,17 @@
  
 }
 
+.container-masonry .masonry-item:nth-child(4n+1){
+    clear: left;
+}
+
  .container-masonry .masonry-item {
-    display: inline-block;
+    display: inline-block; 
     width: 100%;
     margin: 10px 0 10px 0;
  }
 
+ 
  @media screen and (max-width: 574px) {
     .container-masonry {
         -moz-column-count: 1;
@@ -209,4 +218,8 @@
     #site-wrapper>.col-md-8{
         border: none;
     }
+
+  
+
 }
+ 
