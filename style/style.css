@@ -13,6 +13,76 @@
      src: url('Roboto-Regular.ttf');
      /*URL to font*/
  }
+ /* Bootstap modal support */
+
+ .modal-header,
+ .modal-footer {
+     border: none;
+ }
+
+ .modal-title {
+     font-size: 30px;
+     color: #fff;
+     font-family: 'Roboto-Light';
+     text-align: center;
+ }
+
+ .modal-content {
+     background: url('./img/Web_Dialod_Background.png')  ;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: right;
+ }
+
+ .modal-dialog {
+     padding-top: 13%;
+ }
+
+ .modal-dialog {
+     position: relative;
+     width: auto;
+     max-width: 600px;
+     margin: 10px;
+ }
+
+ .modal-sm {
+     max-width: 300px;
+ }
+
+ .modal-lg {
+     max-width: 900px;
+ }
+
+ @media (min-width: 768px) {
+     .modal-dialog {
+         margin: 30px auto;
+     }
+ }
+
+ @media (min-width: 320px) {
+     .modal-sm {
+         margin-right: auto;
+         margin-left: auto;
+     }
+ }
+
+ @media (min-width: 620px) {
+     .modal-dialog {
+         margin-right: auto;
+         margin-left: auto;
+     }
+     .modal-lg {
+         margin-right: 10px;
+         margin-left: 10px;
+     }
+ }
+
+ @media (min-width: 920px) {
+     .modal-lg {
+         margin-right: auto;
+         margin-left: auto;
+     }
+ }
  /*Filter styles*/
 
  .saturate {
@@ -72,23 +142,62 @@
  #main-navbar {
      background: #00bcd4;
      height: 80px;
-     padding-top: 10px; 
+     padding-top: 10px;
  }
 
- #main-navbar .search-wrapper{
-   position: relative;
-      /* width: 30%;
+ #main-navbar .search-wrapper {
+     position: relative;
+     /* width: 30%;
        margin-left: 10%; */
-     
  }
- #main-navbar .search-wrapper img{
+
+ #main-navbar .nav-btn{
+     background: transparent;
+     color:white;
+     font-size: 25px;
+     font-family: 'Roboto-Light';
+ }
+
+ #main-navbar .search-wrapper img {
      position: absolute;
      right: 10px;
-     top:5px;
+     top: 5px;
  }
+
+#navbar-dropdown{
+    background: #00bcd4;
+}
+#navbar-dropdown li a{
+    color:#fff;
+}
+#navbar-dropdown li:hover{
+    background:#fff;
+}
+#navbar-dropdown li:hover a{
+    color:#000;
+}
  .navbar-brand {
      padding: 5px 20px;
  }
+
+
+
+ @media screen and (min-width: 768px) {
+    #navbar-dropdown{
+        visibility: hidden;
+    }
+}
+
+#login-modal-content{
+    padding: 196px;
+}
+@media screen and (max-width: 910px) {
+    #login-modal-content{
+        padding: 0;
+    }
+}
+
+
 
  .navbar-brand>img {
      height: 65px;
@@ -96,7 +205,6 @@
      margin: 0;
      padding: 0;
      margin-top: -9px;
- 
  }
 
  #site-wrapper {
@@ -214,7 +322,7 @@
      margin: 4;
  }
 
- .regisForm {
+ .postForm {
      width: 100%;
      height: 100%;
      background-color: #fff;
@@ -240,16 +348,52 @@
  }
  /* register-form.js */
 
- .regisAction {
-     float: right;
-     display: inline
+ .modal-content .regis-input {
+     border: 1px #fff solid;
+     border-radius: 3px;
+     width: 30%;
+     margin-left: auto;
+     margin-right: auto;
  }
 
- .loginBtn {
-     float: left;
-     display: inline
+ #regis-form {
+     width: 50%;
+     margin-right: auto;
+     margin-left: auto;
  }
+
+ #regis-form .regis-btn {
+     float: right;
+     display: inline;
+     color:#fff;
+     background-color: Transparent;
+     background-repeat:no-repeat;
+     cursor:pointer;
+     overflow: hidden;
+     outline:none;
+     border: sollid 1px #fff;
+ }
+
+ 
+ 
  /* login-form.js */
+ #login-form {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ #login-form .login-btn {
+    float: right;
+    display: inline;
+    color:#fff;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border: sollid 1px #fff;
+}
 
  .loginAction {
      float: right;
@@ -336,19 +480,19 @@
      font-family: 'Roboto-Light';
      font-size: 25px;
  }
-
  /* detail-page.js */
- .iframe-wrapper{
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+
+ .iframe-wrapper {
+     position: relative;
+     width: 100%;
+     height: 0;
+     padding-bottom: 56.25%;
  }
 
  .youtube-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
