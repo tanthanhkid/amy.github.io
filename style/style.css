@@ -20,6 +20,13 @@
      border: none;
  }
 
+ .modal-header .close{
+     color: #fff;
+     font-size: 30px;
+     opacity: 1;
+     font-family: 'Roboto-Light';
+ }
+
  .modal-title {
      font-size: 30px;
      color: #fff;
@@ -31,7 +38,7 @@
      background: url('./img/Web_Dialod_Background.png')  ;
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: right;
+     background-position: top right;
  }
 
  .modal-dialog {
@@ -145,6 +152,16 @@
      padding-top: 10px;
  }
 
+ #navbar-username{
+     /* padding-top: 10px; */
+ }
+ #navbar-username span{
+     color:#fff;
+     font-size: 25px;
+     font-family: 'Roboto-Light';
+    
+ }
+
  #main-navbar .search-wrapper {
      position: relative;
      /* width: 30%;
@@ -189,11 +206,11 @@
 }
 
 #login-modal-content{
-    padding: 196px;
+    /* padding: 196px; */
 }
 @media screen and (max-width: 910px) {
     #login-modal-content{
-        padding: 0;
+        /* padding: 0; */
     }
 }
 
@@ -408,7 +425,7 @@
 
  #postType {
      width: 100%;
-     margin-top: 20px;
+     
      background: #fff;
      /* box-shadow: 3px 3px #cacaca; */
  }
