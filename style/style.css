@@ -182,6 +182,13 @@
      top: 5px;
  }
 
+ #main-navbar .search-wrapper .loading-icon {
+    position: absolute;
+    margin:0;
+    right: 10px;
+    top: 5px;
+}
+
 #navbar-dropdown{
     background: #00bcd4;
 }
