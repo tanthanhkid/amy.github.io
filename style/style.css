@@ -195,7 +195,7 @@
     color:#000;
 }
  .navbar-brand {
-     padding: 5px 20px;
+     padding: 5px 0px;
  }
 
 
@@ -527,9 +527,7 @@
 }
 
 /* comment-item.js */
-#subcomment-box li{
-    padding-left: 5%;
-}
+ 
 
 .cmt-content{
     font-family: 'Roboto-Light';
