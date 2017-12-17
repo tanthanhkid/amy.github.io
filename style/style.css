@@ -149,7 +149,7 @@
 
  #main-navbar {
      background: #00bcd4;
-     height: 80px;
+     height: 60px;
      padding-top: 10px;
  }
 
@@ -172,8 +172,9 @@
  #main-navbar .nav-btn{
      background: transparent;
      color:white;
-     font-size: 25px;
+     font-size: 17px;
      font-family: 'Roboto-Light';
+     
  }
 
  #main-navbar .search-wrapper img {
@@ -231,8 +232,8 @@
 
 
  .navbar-brand>img {
-     height: 65px;
-     width: 65px;
+     height: 48px;
+     width: 48px;
      margin: 0;
      padding: 0;
      margin-top: -9px;
@@ -263,14 +264,15 @@
  }
 
  #hashtagCol .hashtag-sb-header span {
-     font-size: 26px;
+     font-size: 21px;
      color: #fff;
      font-family: 'Roboto-Light'
  }
 
  #hashtagCol .chip-text {
      font-family: 'Roboto-Light';
-     font-size: 26px;
+     font-size: 19px;
+     font-weight: 600;
      color: '#64bdcb';
  }
 
@@ -449,13 +451,15 @@
      text-align: center;
  }
 
+ 
+
  #postType>li.active {
      border: none;
      border-bottom: solid 4px #659fe8;
  }
 
  #postType>li a {
-     font-size: 29px;
+     font-size: 23px;
      font-family: 'Roboto-Light';
      font-weight: 600;
  }
