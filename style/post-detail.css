@@ -1,0 +1,61 @@
+
+ /* post-detail.js */
+
+ .uploadButton {
+    vertical-align: middle;
+    margin-right: 10px;
+    color: #fff;
+    float: left;
+}
+
+.uploadInput {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+.upload {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.chip {
+    margin: 4;
+}
+
+.postForm {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0;
+    border: solid 1px #d0c4c4;
+    border-radius: 2;
+}
+
+.wrapper {
+    background-color: #f4f5f8;
+    padding: 0;
+}
+
+.submitBtn {
+    float: right;
+    margin-right: 10px;
+    margin-top: -29px;
+}
+
+.btnWrapper {
+    display: inline-block;
+    width: 100%
+}

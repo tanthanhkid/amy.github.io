@@ -1,0 +1,29 @@
+/* login-form.js */
+  
+#login-form {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ #login-form .login-btn {
+    float: right;
+    display: inline;
+    color:#fff;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border: sollid 1px #fff;
+}
+
+ .loginAction {
+     float: right;
+     display: inline
+ }
+
+ .regisBtn {
+     float: left;
+     display: inline
+ }

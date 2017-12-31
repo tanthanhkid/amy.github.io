@@ -1,0 +1,27 @@
+/* register-form.js */
+
+.modal-content .regis-input {
+    border: 1px #fff solid;
+    border-radius: 3px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#regis-form {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#regis-form .regis-btn {
+    float: right;
+    display: inline;
+    color:#fff;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border: sollid 1px #fff;
+}
