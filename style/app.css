@@ -9,7 +9,7 @@
 
 #navbar-username span{
     color:#fff;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Roboto-Light';
    
 }
@@ -83,6 +83,7 @@
 #site-wrapper {
     padding-right: 0;
     padding-left: 0;
+    max-width: 1500px;
 }
 
 
@@ -103,14 +104,14 @@
 }
 
 #hashtagCol .hashtag-sb-header span {
-    font-size: 21px;
+    font-size: 14px;
     color: #fff;
     font-family: 'Roboto-Light'
 }
 
 #hashtagCol .chip-text {
     font-family: 'Roboto-Light';
-    font-size: 21px;
+    font-size: 14px;
     color: '#64bdcb';
 }
 
@@ -126,7 +127,7 @@
 }
 
 #hashtagCol ul li a {
-    font-size: 30px;
+    font-size: 14px;
 }
 
 .gridFluid {
