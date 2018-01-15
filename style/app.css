@@ -40,14 +40,16 @@
 }
 
 #navbar-dropdown{
-   background: #00bcd4;
+   /* background: #00bcd4; */
 }
-#navbar-dropdown li a{
-   color:#fff;
+#navbar-dropdown ul li a{
+   color:#000;
 }
 #navbar-dropdown li{
    height: 30px;
-   border-bottom: solid 1px white;
+   
+   
+   text-align: center;
 }
 #navbar-dropdown li:hover{
    background:#fff;
@@ -56,7 +58,7 @@
    color:#000;
 }
 .navbar-brand {
-    padding: 5px 0px;
+    padding: 5px 5px;
 }
 
 
@@ -85,7 +87,34 @@
     padding-left: 0;
     max-width: 1500px;
 }
+ 
 
+#user-menu{
+    position: absolute;
+    top:51px;
+   
+    width: 120px;
+    border-radius: 2px;
+}
+#user-menu ul {
+    width:auto;
+    padding:0;
+    
+}
+#user-menu ul li{
+    list-style-type: none;
+    cursor: pointer;
+    width: auto;
+    padding: 10px;
+}
+
+#web-menu{
+    position: absolute;
+    top:51px;
+   
+    width: 120px;
+    border-radius: 2px;
+}
 
 .sideBar {
     height: 500px; 
@@ -96,23 +125,36 @@
     padding-left: 0;
 }
 
-#hashtagCol .hashtag-sb-header {
-    background: #64bdcb;
-    border-radius: 25px;
+#hashtagCol .hashtag-sb-header a { 
+    border: none;
     text-align: center;
-    padding: 5px 0 5px 0;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+#hashtagCol .hashtag-sb-header:hover a { 
+    background: none;
+}
+#hashtagCol .hashtag-sb-header.active a { 
+  background: none;
 }
 
 #hashtagCol .hashtag-sb-header span {
-    font-size: 14px;
+    font-size: 17px;
     color: #fff;
-    font-family: 'Roboto-Light'
+    font-family: 'Roboto-Regular'
 }
+.hashtag-item{
+    cursor: pointer;
+    text-decoration: #000;
+}
+ 
 
 #hashtagCol .chip-text {
     font-family: 'Roboto-Light';
     font-size: 14px;
-    color: '#64bdcb';
+    color: '#4abdd5';
 }
 
 #hashtagCol ul {
@@ -124,11 +166,24 @@
 #hashtagCol ul li {
     list-style-type: none;
     display: inline;
+   
 }
 
 #hashtagCol ul li a {
     font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
 }
+.loadmore-hashtag{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+ .loadmore-hashtag span{
+     color:#6bdbf4;
+     text-decoration: underline;
+     font-family: 'Roboto-Regular';
+ }
 
 .gridFluid {
     width: 100%;

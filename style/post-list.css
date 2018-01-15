@@ -16,8 +16,11 @@
 
 
 #postType>li.active {
-    border: none;
+    border  : none;
     border-bottom: solid 4px #659fe8;
+}
+#postType>li.active a{
+    border  : none;
 }
 
 #postType>li a {
