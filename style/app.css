@@ -4,8 +4,22 @@
     background: #00bcd4;
     height: 60px;
     padding-top: 10px;
+    display: flex;
+    align-content: center;
 }
 
+#main-navbar .container{
+    max-width: 1500px;
+}
+
+@media (max-width: 768px) {
+    #main-navbar .container{
+        margin:0;
+        padding-left: 30px;
+        padding-right: 10px;
+        width: 100%;
+    }
+}
 
 #navbar-username span{
     color:#fff;
@@ -29,7 +43,7 @@
 #main-navbar .search-wrapper img {
     position: absolute;
     right: 10px;
-    top: 5px;
+    top: 10px;
 }
 
 #main-navbar .search-wrapper .loading-icon {
@@ -142,7 +156,7 @@
 
 #hashtagCol .hashtag-sb-header span {
     font-size: 17px;
-    color: #fff;
+   
     font-family: 'Roboto-Regular'
 }
 .hashtag-item{
