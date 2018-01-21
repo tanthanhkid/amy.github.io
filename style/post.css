@@ -5,3 +5,37 @@
     font-family: 'Roboto-Light';
     font-size: 16px;
 }
+
+.post-action ul {
+  padding: 0;
+  margin-bottom: -3px;
+  margin-right: 0;
+}
+.post-action ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.post-action ul li span{
+    font-size: 14px;
+    font-family: 'Roboto-Light';
+}
+
+.post-action ul li img{
+    padding-bottom: 8px;
+}
+
+.post-action ul li img.upside-down{
+   margin-top: -11px;
+}
+
+.post-action ul li.share-btn{
+    float: right;
+}
+
+.post-action ul li.cmt-link{
+ 
+    margin-left: 90px;
+   
+}

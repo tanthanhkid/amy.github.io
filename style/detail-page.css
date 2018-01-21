@@ -1,7 +1,6 @@
+/* detail-page.js */
 
- /* detail-page.js */
-
- .iframe-wrapper {
+.iframe-wrapper {
     position: relative;
     width: 100%;
     height: 0;
@@ -16,7 +15,45 @@
     height: 100%;
 }
 
-#comment-box  li{
-   padding-left: 2px;
-   list-style-type: none;
+#comment-box li {
+    padding-left: 2px;
+    list-style-type: none;
+}
+
+#detail-page .post-action ul {
+    padding: 0;
+    margin-bottom: -3px;
+    margin-right: 0;
+}
+
+#detail-page .post-action ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+#detail-page .post-action ul li span {
+    font-size: 14px;
+    font-family: 'Roboto-Light';
+}
+
+#detail-page .post-action ul li img {
+    padding-bottom: 8px;
+}
+
+#detail-page .post-action ul li img.upside-down {
+    margin-top: -11px;
+}
+
+#detail-page .post-action ul li.share-btn {
+    float: right;
+}
+
+#detail-page .post-action ul li.cmt-link {
+    margin-left: 340px;
+    ;
+}
+
+#detail-page .post-action ul li.cmt-box {
+    width: 100%;
 }

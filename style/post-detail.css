@@ -57,5 +57,7 @@
 
 .btnWrapper {
     display: inline-block;
-    width: 100%
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
 }

@@ -16,6 +16,10 @@
  }
  /* Bootstap modal support */
 
+a{
+    color:#4abdd5;
+}
+
  .modal-header,
  .modal-footer {
      border: none;
@@ -124,6 +128,12 @@
  .huerotate {
      filter: hue-rotate(180deg);
  }
+
+.upside-down{
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari 3-8 */
+    transform: rotate(180deg);
+}
 
  .rss.opacity {
      filter: opacity(50%);
