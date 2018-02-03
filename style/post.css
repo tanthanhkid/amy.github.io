@@ -1,41 +1,49 @@
+/* post.js */
 
- /* post.js */
-
- .post-content {
+.post-content {
     font-family: 'Roboto-Light';
     font-size: 16px;
 }
 
-.post-action ul {
-  padding: 0;
-  margin-bottom: -3px;
-  margin-right: 0;
-}
-.post-action ul li{
-    display: inline-block;
-    list-style-type: none;
-    padding-right: 10px;
+.post-action {
+    display: flex;
 }
 
-.post-action ul li span{
-    font-size: 14px;
+.post-action .action-item {
+    width: calc(100% / 4);
+}
+
+.post-action .like-col,
+.dislike-col {
+    width: 13%;
+}
+
+.post-action .like-col,
+.dislike-col span{
+    font-size: 16px;    
     font-family: 'Roboto-Light';
 }
 
-.post-action ul li img{
-    padding-bottom: 8px;
+.post-action .cmt-col {
+    flex-grow: 1;
 }
 
-.post-action ul li img.upside-down{
-   margin-top: -11px;
+.post-action .share-col{
+    float:right;
 }
 
-.post-action ul li.share-btn{
-    float: right;
+.flexbox-img{
+    display: flex;
 }
 
-.post-action ul li.cmt-link{
  
-    margin-left: 90px;
-   
+.img-wrapper {
+      
+    overflow: hidden;
 }
+ 
+.img-wrapper img{
+   width: 100%;
+   height: 100%;
+}
+ 
