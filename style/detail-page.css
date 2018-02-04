@@ -57,3 +57,47 @@
 #detail-page .post-action ul li.cmt-box {
     width: 100%;
 }
+
+
+#detail-page .flexbox-img {
+    display: flex;
+}
+
+#detail-page .img-wrapper {
+    width: 100%;
+    margin: 1px;
+    overflow: hidden;
+}
+
+#detail-page .img-wrapper:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+
+/* 16:9 Aspect Ratio */
+#detail-page .ratio169 {
+    width: 100%;
+    margin: 1px;
+    overflow: hidden;
+}
+
+#detail-page .ratio169:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+
+/* 4:3 Aspect Ratio */
+#detail-page .ratio43 {
+    width: 100%;
+    margin: 1px;
+    overflow: hidden;
+}
+
+#detail-page .ratio43:before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+}

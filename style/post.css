@@ -1,48 +1,48 @@
 /* post.js */
 
-.post-content {
+.list-post-item .post-content {
     font-family: 'Roboto-Light';
     font-size: 16px;
 }
 
-.post-action {
+.list-post-item .post-action {
     display: flex;
 }
 
-.post-action .action-item {
+.list-post-item .post-action .action-item {
     width: calc(100% / 4);
 }
 
-.post-action .like-col,
+.list-post-item .post-action .like-col,
 .dislike-col {
     width: 13%;
 }
 
-.post-action .like-col,
+.list-post-item .post-action .like-col,
 .dislike-col span {
     font-size: 16px;
     font-family: 'Roboto-Light';
 }
 
-.post-action .cmt-col {
+.list-post-item .post-action .cmt-col {
     flex-grow: 1;
 }
 
-.post-action .share-col {
+.list-post-item .post-action .share-col {
     float: right;
 }
 
-.flexbox-img {
+.list-post-item .flexbox-img {
     display: flex;
 }
 
-.img-wrapper {
+.list-post-item .img-wrapper {
     width: 100%;
     margin: 1px;
     overflow: hidden;
 }
 
-.img-wrapper:before {
+.list-post-item .img-wrapper:before {
     content: "";
     display: block;
     padding-top: 100%;
@@ -50,13 +50,13 @@
 
 
 /* 16:9 Aspect Ratio */
-.ratio169 {
+.list-post-item .ratio169 {
     width: 100%;
     margin: 1px;
     overflow: hidden;
 }
 
-.ratio169:before {
+.list-post-item .ratio169:before {
     content: "";
     display: block;
     padding-top: 56.25%;
