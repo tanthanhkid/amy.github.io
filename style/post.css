@@ -19,8 +19,8 @@
 }
 
 .post-action .like-col,
-.dislike-col span{
-    font-size: 16px;    
+.dislike-col span {
+    font-size: 16px;
     font-family: 'Roboto-Light';
 }
 
@@ -28,22 +28,36 @@
     flex-grow: 1;
 }
 
-.post-action .share-col{
-    float:right;
+.post-action .share-col {
+    float: right;
 }
 
-.flexbox-img{
+.flexbox-img {
     display: flex;
 }
 
- 
 .img-wrapper {
-      
+    width: 100%;
+    margin: 1px;
     overflow: hidden;
 }
- 
-.img-wrapper img{
-   width: 100%;
-   height: 100%;
+
+.img-wrapper:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
- 
+
+
+/* 16:9 Aspect Ratio */
+.ratio169 {
+    width: 100%;
+    margin: 1px;
+    overflow: hidden;
+}
+
+.ratio169:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
